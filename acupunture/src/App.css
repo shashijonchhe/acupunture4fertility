@@ -1,0 +1,244 @@
+
+.Dropdown:hover .dropdown-content {background-color: green;}
+
+.Dropdown:hover a {background-color: green}
+
+.Navbar a{
+  color:white;
+  font-style:italic;
+}
+
+
+
+.Dropdown:hover .dropdown-content {
+  
+  display: block;
+  
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  
+}
+
+.dropdown-content a{
+
+  color:black;
+}
+
+
+.Trail{
+  background: #64A57E url("https://www.olgchs.org/uploaded/Auxiliary_Programs/Adult_Enrichment/Bamboo-Stones-Zen-Meditation-Fresh-New-Hd-Wallpaper-.jpg") center center no-repeat;
+  background-size: 100% auto;
+  padding: 2em 1em;
+  text-align: center;
+}
+h2{
+  font-size: 5.5em;
+  font-family: 'Droid Serif', serif;
+  font-style: bold;
+  font-weight: normal;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  display:block;
+  color: #fff;
+  margin: 0;
+  line-height: 1.5;
+  
+}
+
+h3{
+  font-family: 'Lato';
+  text-transform: uppercase;
+  color:#fff;
+  font-style: normal;
+  font-size: 1.15em;
+}
+
+span{
+  color:white;
+  font-size:1.1em;
+  margin-bottom: 1.5em;
+  box-sizing: border-box;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  scroll-margin-inline-end: 0px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.5;
+  
+}
+
+.Details h1{
+  color:#68B08B;
+  font-family: 'Droid Serif', serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 2em;
+  margin: 0.67em 0;
+  box-sizing: border-box;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  display: block;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-shadow: -1px 1px 1px #fff;
+
+}
+
+.Details li{
+  box-sizing: border-box;
+  display: list-item;
+  text-align: -webkit-match-parent;
+  list-style: disc;
+  text-shadow: -1px 1px 1px #fff;
+  color: #6D6461;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;font-size: 1rem;
+}
+
+.Details span{
+  text-align: left;
+  margin-bottom: 1.5em;
+  box-sizing: border-box;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-shadow: -1px 1px 1px #fff;
+  color:#6D6461;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+
+}
+.Details{
+  background-image: url("https://ncfmc.com/wp-content/uploads/2017/12/Dr-Cherry.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 200px;
+  
+}  
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:green;
+}
+
+li {
+  float: left;
+  
+}
+
+li a {
+  
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 46px;
+  margin:5px;
+  
+}
+
+li a:hover {
+  background-color: white;
+}
+
+
+.App div {
+  background-color:white;
+  color:black;
+  text-align: center;
+ 
+}
+.Foot{
+  background-image: url("https://www.colorhexa.com/75678d.png");
+  display: flex;
+
+}
+.Foot > div{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.5;
+  display: block;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+  background-color: transparent;
+  color:white;
+  font-size: .85em;
+  padding-top: .25em;
+  font-style: normal;
+}
+
+.Copy{
+  text-align: left;
+  background-color: #8F83A4;
+  background-image: url("https://www.colorhexa.com/75678d.png");
+}
+
+
+
+
+
+.slider {
+  z-index:1;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing:border-box;
+}
+
+.slider-wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.slide {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+.arrow {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  color:black;
+  border-radius: 50%;
+ 
+  
+}
+
+.nextArrow {
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  z-index: 999;
+  color:white;
+}
+
+.backArrow {
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  z-index: 999;
+  color:black;
+}
