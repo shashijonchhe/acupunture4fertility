@@ -5,6 +5,7 @@ const Body=(props)=>{
     return(
         <div className="Trail">
             <h1>WELCOME</h1>
+            <h2>insert</h2>
             <h2>TO</h2>
             <h3>acupunture</h3>
             <h2>We Turn Patients Into Parents</h2>    
